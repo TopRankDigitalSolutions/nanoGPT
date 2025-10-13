@@ -8,6 +8,27 @@ __pycache__/
 *.pt
 *.pyc
 *.onnx
+*.pdf
 input.txt
 env/
 venv/
+
+# Google Cloud service account keys (sensitive!)
+*service-account*.json
+*gcloud*.json
+*key*.json
+my-project-*.json
+
+# Other sensitive files
+.env
+.env.*
+credentials.json
+config.json
+
+# OCR output directories (generated content)
+ocr_free_pdf*/
+ocr_google_vision_pdf*/
+batch_ocr_free_pdf*/
+batch_google_vision*/
+*_extracted/
+test_extraction/
