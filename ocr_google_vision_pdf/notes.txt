@@ -1,3 +1,12 @@
+python ocr_google_vision.py pdf/206-10001-10001.pdf --output ./ocr_google_vision_pdf/206-10001-10001
+python ocr_google_vision.py pdf/206-10001-10002.pdf --output ./ocr_google_vision_pdf/206-10001-10002
+python ocr_google_vision.py pdf/206-10001-10003.pdf --output ./ocr_google_vision_pdf/206-10001-10003
+python ocr_google_vision.py pdf/206-10001-10004.pdf --output ./ocr_google_vision_pdf/206-10001-10004
+python ocr_google_vision.py pdf/206-10001-10005.pdf --output ./ocr_google_vision_pdf/206-10001-10005
+python ocr_google_vision.py pdf/206-10001-10006.pdf --output ./ocr_google_vision_pdf/206-10001-10006
+python ocr_google_vision.py pdf/206-10001-10007.pdf --output ./ocr_google_vision_pdf/206-10001-10007
+python ocr_google_vision.py pdf/206-10001-10008.pdf --output ./ocr_google_vision_pdf/206-10001-10008
+python ocr_google_vision.py pdf/206-10001-10009.pdf --output ./ocr_google_vision_pdf/206-10001-10009
 python ocr_google_vision.py pdf/206-10001-10010.pdf --output ./ocr_google_vision_pdf/206-10001-10010
 python ocr_google_vision.py pdf/206-10001-10011.pdf --output ./ocr_google_vision_pdf/206-10001-10011
 python ocr_google_vision.py pdf/206-10001-10012.pdf --output ./ocr_google_vision_pdf/206-10001-10012

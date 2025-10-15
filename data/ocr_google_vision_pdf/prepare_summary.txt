@@ -3,28 +3,28 @@ OCR TEXT PREPARATION SUMMARY
 
 Source file: consolidated_extracted_text.txt
 Data source: Google Cloud Vision OCR
-Total characters: 538,361
-Unique characters (vocab): 190
+Total characters: 894,041
+Unique characters (vocab): 257
 Data type: <class 'numpy.uint16'>
 
 TRAIN/VAL SPLIT:
 --------------------
-Training data: 484,524 chars (90.0%)
-Validation data: 53,837 chars (10.0%)
-Training tokens: 484,524
-Validation tokens: 53,837
+Training data: 804,636 chars (90.0%)
+Validation data: 89,405 chars (10.0%)
+Training tokens: 804,636
+Validation tokens: 89,405
 
 OUTPUT FILES:
 ---------------
-• train.bin - Training data (484,524 tokens)
-• val.bin - Validation data (53,837 tokens)
+• train.bin - Training data (804,636 tokens)
+• val.bin - Validation data (89,405 tokens)
 • meta.pkl - Vocabulary and metadata
 • prepare_summary.txt - This summary
 
 VOCABULARY PREVIEW:
 --------------------
 Characters: 
- !"#$%&'()*+,-./0123456789:;<=>?ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_abcdefghijklmnopqrstuvwxyz{}~£©°²·ÍÓàáèéíóúüįΟΤВДадзохіԼאילןابةتدرسشعلمنهوکیے۰۹२તનસહી્૧૨૫૭กจธรลัไ་༡ཀགངཅདནབརལསឌុ–―•₫€№▸☐☑✓⠀こしる診
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_abcdefghijklmnopqrstuvwxyz{}~£©¬°²·º»ÅÆÉÍÓàáäèéíóöøúüįŁɛˆΟΤАБВГДОРавгдезинопрхіԼאבילןابةتجحدرزسشطعفلمنهويپچکہیے۰۹܃२ટતનસહાી્૦૧૨૫૭กงจธรลวัาเไ་༡ཀགངཅཏདནཔབའརལསཱིོུྭပឌុọ–—―•…₫€№∞▸○☐☑✓⠀、。いうこしなるハミ名心昏診
 
 SAMPLE ENCODING TEST:
 ----------------------
