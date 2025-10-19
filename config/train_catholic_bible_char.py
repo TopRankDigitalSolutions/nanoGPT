@@ -1,7 +1,7 @@
-# train a character-level model on OCR extracted text
-# dataset from Google Cloud Vision OCR results
+# train a character-level model on Catholic Bible text
+# dataset from Catholic Public Domain Version (CPDV)
 
-out_dir = 'out-ocr-vision-char'
+out_dir = 'out-catholic-bible-char'
 eval_interval = 250 # keep frequent because we'll overfit
 eval_iters = 200
 log_interval = 10 # don't print too too often
@@ -10,10 +10,10 @@ log_interval = 10 # don't print too too often
 always_save_checkpoint = False
 
 wandb_log = False # override via command line if you like
-wandb_project = 'ocr-vision-char'
+wandb_project = 'catholic-bible-char'
 wandb_run_name = 'mini-gpt'
 
-dataset = 'ocr_google_vision_pdf'
+dataset = 'catholic_bible'
 gradient_accumulation_steps = 1
 batch_size = 64
 block_size = 256 # context of up to 256 previous characters
