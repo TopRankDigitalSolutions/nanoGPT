@@ -1,0 +1,34 @@
+OCR TEXT PREPARATION SUMMARY
+==================================================
+
+Source file: consolidated_extracted_text.txt
+Data source: Google Cloud Vision OCR
+Total characters: 894,041
+Unique characters (vocab): 257
+Data type: <class 'numpy.uint16'>
+
+TRAIN/VAL SPLIT:
+--------------------
+Training data: 804,636 chars (90.0%)
+Validation data: 89,405 chars (10.0%)
+Training tokens: 804,636
+Validation tokens: 89,405
+
+OUTPUT FILES:
+---------------
+• train.bin - Training data (804,636 tokens)
+• val.bin - Validation data (89,405 tokens)
+• meta.pkl - Vocabulary and metadata
+• prepare_summary.txt - This summary
+
+VOCABULARY PREVIEW:
+--------------------
+Characters: 
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_abcdefghijklmnopqrstuvwxyz{}~£©¬°²·º»ÅÆÉÍÓàáäèéíóöøúüįŁɛˆΟΤАБВГДОРавгдезинопрхіԼאבילןابةتجحدرزسشطعفلمنهويپچکہیے۰۹܃२ટતનસહાી્૦૧૨૫૭กงจธรลวัาเไ་༡ཀགངཅཏདནཔབའརལསཱིོུྭပឌុọ–—―•…₫€№∞▸○☐☑✓⠀、。いうこしなるハミ名心昏診
+
+SAMPLE ENCODING TEST:
+----------------------
+Original:  '================================================================================\nCONSOLIDATED EXTRA'
+Encoded:   [30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30]... (showing first 20 tokens)
+Decoded:   '================================================================================\nCONSOLIDATED EXTRA'
+Match:     True
